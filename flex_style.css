@@ -132,7 +132,7 @@ nav {
 #quotes {
     height: 500px;
     padding-top: 70px;
-    background-image: url('photos/IMG_9231.jpg');
+    background-image: url('../photos/IMG_9231.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
