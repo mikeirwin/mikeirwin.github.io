@@ -18,6 +18,12 @@ body {
     color: seashell;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 32px;
+    }
+}
+
 a {
     color: seashell;
 }
@@ -59,8 +65,14 @@ nav {
         padding: 20px 10px;
     }
 
-/*Main Section*/
+@media only screen and (max-width: 600px) {
+    nav a {
+        text-decoration: none;
 
+    }
+}
+
+/*Main Section*/
 .main {
     padding-top: 69px;
     opacity: 0.9;
@@ -121,9 +133,20 @@ nav {
     overflow: hidden;
 }
 
-.port {
-}
+/* .port */
 
+@media only screen and (max-width: 600px) {
+    #photos {
+        width: 600px;
+        height: auto;
+        justify-content: flex-start;
+
+    }
+    
+    .pic img {
+        display: inline-block;
+    }
+}
 /*Quotes Section*/
 .flex-container.quotes {
     padding-top: 5px;
@@ -189,3 +212,4 @@ footer {
     text-align: left;
     padding: 20px;
 }
+
