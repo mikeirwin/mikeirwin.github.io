@@ -82,7 +82,7 @@ nav {
 
 #about {
     height: 700px;
-    background-image: url("https://raw.githubusercontent.com/mikeirwin/mikeirwin.github.io/master/IMG_9999%20(2).JPG");
+    background-image: url("resources/photos/IMG_9999 (2).jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -155,7 +155,7 @@ nav {
 #quotes {
     height: 500px;
     padding-top: 70px;
-    background-image: url("IMG_9231 (2).JPG");
+    background-image: url("resources/photos/IMG_9231 (2).JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100%;
