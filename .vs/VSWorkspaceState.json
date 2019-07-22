@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\capstone",
+    "\\capstone\\resources",
+    "\\capstone\\resources\\css",
+    "\\FP"
   ],
-  "SelectedNode": "\\seamus_katie_couch_land.JPG",
+  "SelectedNode": "\\FP\\family_photos.html",
   "PreviewInSolutionExplorer": false
 }
