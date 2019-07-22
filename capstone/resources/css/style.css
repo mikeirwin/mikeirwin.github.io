@@ -43,6 +43,12 @@ nav {
         padding: 24px;
     }
 
+    nav a {
+        color: gray;
+        text-decoration: none;
+
+    }
+
 .nav-spacer {
     display: inline-block;
     flex-wrap: wrap;
@@ -55,8 +61,34 @@ nav {
 .main {
     width: 100%;
     height: auto;
-    background-color: gray;
+    background-color: lightgray;
 }
 .main img {
-    width: 50%;
+    padding: 32px 24px;
+    width: 60%;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 40%;
+    padding: 24px;
+}
+.main-content h1 {
+    color: darkslategray;
+    margin: 0;
+}
+
+.main-content a {
+    text-decoration: none;
+    color: white;
+    padding:8px;
+}
+
+.button {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    color: white;
 }
