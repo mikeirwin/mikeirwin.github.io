@@ -1,0 +1,124 @@
+[33mcommit 5b9f8c1fd0aec9b4cee69ba8772e4bacff7a2e84[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: MikeTheHuman <mikeirwin2013@gmail.com>
+Date:   Sun Jul 21 16:02:13 2019 -0700
+
+    image paths relocated to clean up repo
+
+[1mdiff --git a/family_photos.html b/family_photos.html[m
+[1mindex a927043..2c4f822 100644[m
+[1m--- a/family_photos.html[m
+[1m+++ b/family_photos.html[m
+[36m@@ -10,7 +10,7 @@[m
+ [m
+     <!--Header-->[m
+     <header class="flex-container">[m
+[31m-        <img src="cat_PNG50485.png"/>[m
+[32m+[m[32m        <img src="resources/photos/cat_PNG50485.png"/>[m
+         <nav>[m
+             <span><a href="#home">Top</a></span>[m
+             <span><a href="#photos">Photos</a></span>[m
+[36m@@ -36,27 +36,27 @@[m
+             <h4>a day in the life of two parents and a toddler</h4>[m
+             <div class="flex-container pics">[m
+                 <div class="pic">[m
+[31m-                    <img class="#" src="seamus_closeup_smiling_land.JPG" />[m
+[32m+[m[32m                    <img class="#" src="resources/photos/seamus_closeup_smiling_land.JPG" />[m
+                     <span>Smile</span>[m
+                 </div>[m
+                 <div class="pic">[m
+[31m-                    <img src="seamus_katie_couch_land.JPG" />[m
+[32m+[m[32m                    <img src="resources/photos/seamus_katie_couch_land.JPG" />[m
+                     <span>Mommy!</span>[m
+                 </div>[m
+                 <div class="pic">[m
+[31m-                    <img src="seamus_on_couch_land.JPG" />[m
+[32m+[m[32m                    <img src="resources/photos/seamus_on_couch_land.JPG" />[m
+                     <span>Silly</span>[m
+                 </div>[m
+                 <div class="pic">[m
+[31m-                    <img class="#" src="IMG_0061.JPG" />[m
+[32m+[m[32m                    <img class="#" src="resources/photos/IMG_0061.JPG" />[m
+                     <span>Play</span>[m
+                 </div>[m
+                 <div class="pic">[m
+[31m-                    <img src="seamus_couch_tongue_2_land.JPG" />[m
+[32m+[m[32m                    <img src="resources/photos/seamus_couch_tongue_2_land.JPG" />[m
+                     <span>Feed Me!</span>[m
+                 </div>[m
+                 <div class="pic">[m
+[31m-                    <img class="#" src="seamus_lipbite_land.JPG" />[m
+[32m+[m[32m                    <img class="#" src="resources/photos/seamus_lipbite_land.JPG" />[m
+                     <span>Face of Destruction</span>[m
+                 </div>[m
+             </div>[m
+[36m@@ -85,7 +85,7 @@[m
+             <h2> Hover your mouse to find the family feline</h2>[m
+             <div class="flex-container ferry">[m
+                 <div class="hidden">[m
+[31m-                    <a><img src="IMG_0084.JPG" /></a>[m
+[32m+[m[32m                    <a><img src="resources/photos/IMG_0084.JPG" /></a>[m
+                 </div>[m
+ [m
+             </div>[m
+[1mdiff --git a/flex_style.css b/flex_style.css[m
+[1mindex bf88a13..353a11f 100644[m
+[1m--- a/flex_style.css[m
+[1m+++ b/flex_style.css[m
+[36m@@ -82,7 +82,7 @@[m [mnav {[m
+ [m
+ #about {[m
+     height: 700px;[m
+[31m-    background-image: url("https://raw.githubusercontent.com/mikeirwin/mikeirwin.github.io/master/IMG_9999%20(2).JPG");[m
+[32m+[m[32m    background-image: url("resources/photos/IMG_9999 (2).jpg");[m
+     background-size: cover;[m
+     background-repeat: no-repeat;[m
+     background-size: 100%;[m
+[36m@@ -155,7 +155,7 @@[m [mnav {[m
+ #quotes {[m
+     height: 500px;[m
+     padding-top: 70px;[m
+[31m-    background-image: url("IMG_9231 (2).JPG");[m
+[32m+[m[32m    background-image: url("resources/photos/IMG_9231 (2).JPG");[m
+     background-size: cover;[m
+     background-repeat: no-repeat;[m
+     background-size: 100%;[m
+[1mdiff --git a/resources/photos/IMG_0061.JPG b/resources/photos/IMG_0061.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3641bf7[m
+Binary files /dev/null and b/resources/photos/IMG_0061.JPG differ
+[1mdiff --git a/resources/photos/IMG_0084.JPG b/resources/photos/IMG_0084.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..17b1846[m
+Binary files /dev/null and b/resources/photos/IMG_0084.JPG differ
+[1mdiff --git a/resources/photos/IMG_9231 (2).JPG b/resources/photos/IMG_9231 (2).JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6d93e1b[m
+Binary files /dev/null and b/resources/photos/IMG_9231 (2).JPG differ
+[1mdiff --git a/resources/photos/IMG_9999 (2).JPG b/resources/photos/IMG_9999 (2).JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..867a345[m
+Binary files /dev/null and b/resources/photos/IMG_9999 (2).JPG differ
+[1mdiff --git a/resources/photos/cat_PNG50485.png b/resources/photos/cat_PNG50485.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..65fd66e[m
+Binary files /dev/null and b/resources/photos/cat_PNG50485.png differ
+[1mdiff --git a/resources/photos/seamus_closeup_smiling_land.JPG b/resources/photos/seamus_closeup_smiling_land.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fc54acc[m
+Binary files /dev/null and b/resources/photos/seamus_closeup_smiling_land.JPG differ
+[1mdiff --git a/resources/photos/seamus_couch_tongue_2_land.JPG b/resources/photos/seamus_couch_tongue_2_land.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6c5faa8[m
+Binary files /dev/null and b/resources/photos/seamus_couch_tongue_2_land.JPG differ
+[1mdiff --git a/resources/photos/seamus_katie_couch_land.JPG b/resources/photos/seamus_katie_couch_land.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e92be37[m
+Binary files /dev/null and b/resources/photos/seamus_katie_couch_land.JPG differ
+[1mdiff --git a/resources/photos/seamus_lipbite_land.JPG b/resources/photos/seamus_lipbite_land.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..aeff1b1[m
+Binary files /dev/null and b/resources/photos/seamus_lipbite_land.JPG differ
+[1mdiff --git a/resources/photos/seamus_on_couch_land.JPG b/resources/photos/seamus_on_couch_land.JPG[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b74dd50[m
+Binary files /dev/null and b/resources/photos/seamus_on_couch_land.JPG differ
