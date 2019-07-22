@@ -16,23 +16,47 @@ body {
     flex-wrap: wrap;
 }
 
+/* Header Styles */
 header {
     width: 100%;
     height: 64px;
     align-items: center;
 }
+    header img {
+        height: 100%;
+    }
 
-header img {
-    height: 100%;
-}
-h2 .colmar {
+.colmar {
     color: darkslategray;
+    font-size: 20px;
 }
 
 nav {
     text-align: right;
+    height: 64px;
+    flex-grow: 1;
+}
+    nav span {
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+        padding: 24px;
+    }
+
+.nav-spacer {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 16px;
+    height: 64px;
+    background-color: aquamarine;
 }
 
-nav .span {
-    display: inline-block;
+/*Main Section Styles*/
+.main {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+}
+.main img {
+    width: 50%;
 }
