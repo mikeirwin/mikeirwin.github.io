@@ -12,8 +12,6 @@ body {
     background-color: white;
 }
 
-.main-content {
-}
 
 .center {
     text-align: center;
@@ -193,4 +191,50 @@ header .mobile {
         .banner-content a {
             margin-bottom: 32px;
         }
+}
+
+/* Main Section Styles */
+
+.information {
+    width: 100%;
+}
+.content .left {
+    width: 60%;
+    max-height: 500px;
+    padding: 32px 24px;
+}
+
+.content .right {
+    width: 40%;
+    align-items: center;
+    margin: 0;
+    float: right;
+}
+
+    .content .right img {
+        width: 35%;
+        padding: 16px;
+    }
+
+.content .top{
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
+.content h3 h4 a {
+    margin: 8px 0px;
+    
+}
+.information a {
+    color: darkblue;
+    text-decoration: none;
+}
+.content .bottom {
+    background-color: lightgray;
+    padding: 16px;
+}
+
+.information h1 {
+    padding: 24px;
 }
