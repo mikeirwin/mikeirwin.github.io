@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/login_style.css" />
+</head>
+<body>
+    <div class="login">
+        <form action="action_page.php">
+            <div class="imgcontainer">
+                <img src="resources/graphics/BMO.png#" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <div class="flex-container submit">
+                    <button type="submit">Login</button>
+                    <button type="submit">Sign Up</button>
+                    <label style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif">
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                </div>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn" onclick="window.location.href = 'family_photos.html';">Cancel</button>
+                <span class="psw">Forgot <a style="color: green; text-decoration: none;" href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
