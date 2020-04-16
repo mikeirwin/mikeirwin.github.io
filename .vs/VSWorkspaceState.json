@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\capstone",
-    "\\capstone\\resources",
-    "\\capstone\\resources\\css",
-    "\\FP"
+    "\\FP",
+    "\\FP\\resources",
+    "\\FP\\resources\\css"
   ],
-  "SelectedNode": "\\FP\\family_photos.html",
+  "SelectedNode": "\\FP\\resources\\graphics",
   "PreviewInSolutionExplorer": false
 }
